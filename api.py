@@ -34,3 +34,5 @@ def remove_post():
     return response
 
 
+if __name__ == '__main__':
+    app.run(port=1234, debug= False)
